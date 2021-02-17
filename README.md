@@ -2,7 +2,7 @@
 #https://nuxtjs.org/docs/2.x/directory-structure/plugins
 #https://www.smashingmagazine.com/2020/04/getting-started-nuxt/
 #https://medium.com/codemonday/github-actions-for-ci-cd-with-ec2-codedeploy-and-s3-e93e75bf1ce0
-## Build Setup(s)
+## Build Setups
 
 ```bash
 # install dependencies
