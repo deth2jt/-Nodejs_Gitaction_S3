@@ -1,7 +1,12 @@
-# nuxt-tut-app
+# AWS Codedeploy Nodejs 
+## sie was eine exerice is create node js app
+## and doing a deploying using aws codeploy 
+
+# nuxt-tut-app 
 #https://nuxtjs.org/docs/2.x/directory-structure/plugins
 #https://www.smashingmagazine.com/2020/04/getting-started-nuxt/
-## Build Setup
+#https://medium.com/codemonday/github-actions-for-ci-cd-with-ec2-codedeploy-and-s3-e93e75bf1ce0
+## Build Setups
 
 ```bash
 # install dependencies
