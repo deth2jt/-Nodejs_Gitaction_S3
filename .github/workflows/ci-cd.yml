@@ -26,6 +26,10 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       # Install project dependencies, test and build
+      #npm cache clean --force
+      #delete node_modules folder
+      #delete package-lock.json file
+      #npm install
       - name: Install dependencies
         run: npm install
       - name: Run build
@@ -71,7 +75,9 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: us-east-1
+          aws-region: us-east-1 
+
+
 
       # Deploy push to AWS S3
       - name: AWS Deploy push
