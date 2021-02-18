@@ -1,5 +1,5 @@
 # AWS Codedeploy Nodejs 
-## thios wasa an exerice is create node js app
+## sie was eine exerice is create node js app
 ## and doing a deploying using aws codeploy 
 
 # nuxt-tut-app 
