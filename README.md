@@ -1,5 +1,6 @@
-# thios wasa an exerice is create node js app
-#and doing a deploying using aws codeploy 
+# AWS Codedeploy Nodejs 
+## thios wasa an exerice is create node js app
+## and doing a deploying using aws codeploy 
 
 # nuxt-tut-app 
 #https://nuxtjs.org/docs/2.x/directory-structure/plugins
