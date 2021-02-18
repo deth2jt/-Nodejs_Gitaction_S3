@@ -25,13 +25,15 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      # Install project dependencies, test and build
+      # Install project dependencies, test and build npm install nuxt
       #npm cache clean --force
       #delete node_modules folder
       #delete package-lock.json file
       #npm install
       - name: Install dependencies
         run: npm install
+      - name: Install nuxt dependencies
+        run: npm install nuxt
       - name: Run build
         run: npm run build
 
@@ -60,6 +62,8 @@ jobs:
       # Install project dependencies and build
       - name: Install dependencies
         run: npm install
+      - name: Install nuxt dependencies
+        run: npm install nuxt
       - name: Run build
         run: npm run build
 
